@@ -1,0 +1,30 @@
+{
+  "name": "challenge-mc2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/serve.js",
+    "create:table": "node ./src/database/createTable",
+    "dev:server": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielmirandaxl/challenge-mc2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrielmirandaxl/challenge-mc2/issues"
+  },
+  "homepage": "https://github.com/Gabrielmirandaxl/challenge-mc2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

@@ -1,0 +1,34 @@
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.atv-data{
+  display: flex;
+  align-items: center;
+}
+
+.field{
+  margin: 0px 0px 0px 30px;
+}
+
+#outlined-multiline-static{
+  width: 550px;
+}
+
+.status{
+  width: 80px;
+}
+
+.username{
+  width: 100px;
+}
+.descricao, .button{
+  margin: 0px 0px 0px 20px;
+  margin-top: 15px;
+}
+
